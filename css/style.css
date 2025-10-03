@@ -1,0 +1,118 @@
+/* Paleta de Colores: 
+   - Turquesa/Mar: #00CED1 
+   - Naranja/Sol: #FF6600
+   - Arena/Base: #FAFAFA
+   - Texto: #333333 */
+
+/* Estilos Globales */
+body {
+    font-family: 'Verdana', sans-serif; /* Fuente limpia para el turismo */
+    background-color: #FAFAFA; /* Fondo color arena ligera */
+    color: #863838;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado (Header) */
+header {
+    background-color: #810b0b; /* Azul Turquesa para el cielo/mar */
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(199, 60, 241, 0.692);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* Estilo del Contenedor de Login */
+.contenedor-login {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+}
+
+.contenedor-login h2 {
+    color: #FF6600; /* Naranja de acento */
+    margin-bottom: 25px;
+}
+
+/* Estilo del Formulario */
+#loginForm input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no agrande el ancho */
+}
+
+#loginForm button {
+    width: 90%;
+    background-color: #852424; 
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#loginForm button:hover {
+    background-color: #f1654c; /* Naranja más brillante al pasar el mouse */
+}
+
+.registro-link {
+    margin-top: 20px;
+}
+
+.registro-link a {
+    color: #ee0f07; /* Enlace en turquesa */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Pie de Página (Footer) */
+footer {
+    background-color: #520707; /* Gris oscuro para contraste */
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+.footer-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.enlaces-legales a, .redes-sociales p {
+    color: #eb4b4b;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.redes-sociales {
+    margin-top: 15px;
+}
+
+.icono-red {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px;
+    vertical-align: middle;
+}

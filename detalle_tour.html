@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title id="page-title">Detalles del Tour</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    </head>
+<body>
+    <script src="js/scripts.js"></script> 
+</body>
+</html>
+    <style>
+        /* Estilos en línea para asegurar la presentación de la tabla */
+        .contenedor-detalle { max-width: 900px; margin: 40px auto; padding: 25px; background: white; border-radius: 12px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); }
+        .detalle-header { text-align: center; margin-bottom: 20px; }
+        .detalle-header h1 { color: #FF6600; font-size: 2em; }
+        .imagen-principal { width: 100%; height: 400px; object-fit: cover; border-radius: 10px; margin-bottom: 30px; }
+        .especificaciones h2 { color: #00CED1; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; }
+        .especificaciones table { width: 100%; border-collapse: separate; border-spacing: 0 10px; }
+        .especificaciones th, .especificaciones td { padding: 15px; text-align: left; border: 1px solid #f0f0f0; }
+        .especificaciones th { background-color: #f8f8f8; font-weight: bold; width: 35%; border-right: none; color: #333; }
+        .especificaciones td { background-color: #ffffff; width: 65%; border-left: none; color: #555; }
+        #boton-reservar { display: block; width: 80%; max-width: 400px; margin: 30px auto; padding: 15px; font-size: 1.2em; cursor: pointer; background-color: #00CED1; color: white; border: none; border-radius: 8px; transition: background-color 0.3s; }
+        #boton-reservar:hover { background-color: #00B3B6; }
+    </style>
+</head>
+<body>
+    
+    <header style="background-color: #333; color: white;">
+        <nav style="text-align: right; padding: 10px 20px;">
+            <a href="tours.html" style="color: white; font-weight: bold; text-decoration: none;">← Regresar a Tours</a>
+        </nav>
+        <div class="detalle-header">
+            <h1 id="titulo-tour">Cargando Detalles del Tour...</h1>
+        </div>
+    </header>
+
+    <main class="contenedor-detalle">
+        
+        <div class="galeria-tour">
+            <div id="media-principal">
+                <img id="imagen-tour" class="imagen-principal" src="" alt="Imagen principal del Tour">
+            </div>
+        </div>
+        
+        <div class="especificaciones">
+            <h2>Datos Importantes del Viaje</h2>
+            
+            <table>
+                <tr>
+                    <th>Precio por Persona:</th>
+                    <td id="precio-tour">...</td>
+                </tr>
+                <tr>
+                    <th>Ubicación Principal:</th>
+                    <td id="ubicacion-principal">...</td>
+                </tr>
+                <tr>
+                    <th>Máximo de Personas Permitidas:</th>
+                    <td id="personas-permitidas">...</td>
+                </tr>
+                <tr>
+                    <th>Ubicación Inicial (Punto de Encuentro):</th>
+                    <td id="ubicacion-inicial">...</td>
+                </tr>
+                <tr>
+                    <th>Ubicación Final (Fin del Tour):</th>
+                    <td id="ubicacion-final">...</td>
+                </tr>
+                <tr>
+                    <th>Guía o Persona a Cargo:</th>
+                    <td id="guia-acargo">...</td>
+                </tr>
+            </table>
+        </div>
+        
+        <button id="boton-reservar">¡Quiero Reservar este Tour!</button>
+    </main>
+
+    <footer style="background-color: #333; color: white; padding: 20px 0; text-align: center;">
+        <div class="footer-contenido" style="max-width: 900px; margin: 0 auto;">
+            <p style="margin-bottom: 10px;">&copy; 2024 México Travel Tours | Vive la aventura.</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
